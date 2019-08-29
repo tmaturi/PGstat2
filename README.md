@@ -32,6 +32,16 @@
             <th>Nationality</th>
             <th>Fee Status</th>
             <th>Remarks</th>
+            <th>Surname</th>
+            <th>Firstname</th>
+            <th>Nationality</th>
+            <th>Fee Status</th>
+            <th>Remarks</th>
+            <th>Surname</th>
+            <th>Firstname</th>
+            <th>Nationality</th>
+            <th>Fee Status</th>
+            <th>Remarks</th>
         </tr>
     </thead>
     <tbody>
@@ -39,6 +49,16 @@
         {% if student.Sheet  == "Current Applicants" %}
         <tr>
           <td>{{ student.surname }}</td>
+          <td>{{ student.firstname }}</td>
+          <td>{{ student.nationality }}</td>
+           <td>{{  student.fee_status }} </td>
+           <td>{{ student.remarks }}</td>
+             <td>{{ student.surname }}</td>
+          <td>{{ student.firstname }}</td>
+          <td>{{ student.nationality }}</td>
+           <td>{{  student.fee_status }} </td>
+           <td>{{ student.remarks }}</td>
+             <td>{{ student.surname }}</td>
           <td>{{ student.firstname }}</td>
           <td>{{ student.nationality }}</td>
            <td>{{  student.fee_status }} </td>
