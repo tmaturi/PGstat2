@@ -54,17 +54,19 @@
           <td>{{ student.firstname }}</td>
           <td>{{ student.nationality }}</td>
            <td>{{  student.fee_status }} </td>
-           <td>{{ student.remarks }}</td>
-             <td>{{ student.surname }}</td>
-          <td>{{ student.firstname }}</td>
-          <td>{{ student.nationality }}</td>
-           <td>{{  student.fee_status }} </td>
-           <td>{{ student.remarks }}</td>
-             <td>{{ student.surname }}</td>
-          <td>{{ student.firstname }}</td>
-          <td>{{ student.nationality }}</td>
-           <td>{{  student.fee_status }} </td>
-           <td>{{ student.remarks }}</td>
+           <td>{{ student.date_applied }}</td>
+             <td>{{ student.degree }}</td>
+          <td>{{ student.subgroup }}</td>
+          <td>{{ student.status }}</td>
+           <td>{{  student.PT_FT }} </td>
+           <td>{{ student.funding }}</td>
+             <td>{{ student.remarks }}</td>
+          <td>{{ student.supervisor_I }}</td>
+          <td>{{ student.supervisor_II }}</td>
+           <td>{{  student.offer_start_date }} </td>
+           <td>{{ student.first_deferral }}</td>
+             <td>{{ student.second_deferral }}</td>
+             <td>{{ student.revoked }}</td>
         </tr>
         {% endif %}
     {% endfor %}
