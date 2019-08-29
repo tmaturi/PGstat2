@@ -22,7 +22,8 @@
         </tr>
     </thead>
     <tbody>
-     {% for student in site.data.phdstudents  | {{ student.Sheet }} == "Current Applicants" %}
+     {% for student in site.data.phdstudents  %}
+        {% if student.Sheet  == "Current Applicants" %}
         <tr>
           <td>{{ student.surname }}</td>
           <td>{{ student.firstname }}</td>
@@ -30,6 +31,7 @@
            <td>{{  student.fee_status }} </td>
            <td>{{ student.remarks }}</td>
         </tr>
+        {% endif %}
     {% endfor %}
     </tbody>
 </table>
