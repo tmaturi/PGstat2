@@ -5,6 +5,26 @@
 
 ### Sheet 1: Current Applicants9
 <table class="grid" style="width: 100%">
+    <caption>{{include.caption}}</caption>
+    <colgroup>
+        <col width="10%" />
+        <col width="10%" />
+      <col width="5%" />
+        <col width="5%" />
+         <col width="5%" />
+        <col width="5%" />
+      <col width="5%" />
+        <col width="5%" />
+         <col width="5%" />
+        <col width="5%" />
+      <col width="10%" />
+        <col width="5%" />
+         <col width="5%" />
+        <col width="5%" />
+      <col width="5%" />
+        <col width="5%" />
+        <col width="5%" />
+    </colgroup>
     <thead>
         <tr class="header">
             <th>Surname</th>
