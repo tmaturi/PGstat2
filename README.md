@@ -17,7 +17,7 @@
             <th>Surname</th>
             <th>Firstname</th>
             <th>Nationality</th>
-            <th>Fee_status</th>
+            <th>Fee Status</th>
             <th>Remarks</th>
         </tr>
     </thead>
