@@ -7,8 +7,8 @@
 <table class="grid" style="width: 100%">
     <caption>{{include.caption}}</caption>
     <colgroup>
-        <col width="5%" />
-        <col width="5%" />
+        <col width="10%" />
+        <col width="10%" />
       <col width="5%" />
         <col width="5%" />
          <col width="5%" />
@@ -17,7 +17,7 @@
         <col width="5%" />
          <col width="5%" />
         <col width="5%" />
-      <col width="5%" />
+      <col width="10%" />
         <col width="5%" />
          <col width="5%" />
         <col width="5%" />
@@ -31,17 +31,19 @@
             <th>Firstname</th>
             <th>Nationality</th>
             <th>Fee Status</th>
+            <th>Date Applied</th>
+            <th>Degree</th>
+            <th>Subgroup</th>
+            <th>Status</th>
+            <th>PT/FT</th>
+            <th>Funding</th>
             <th>Remarks</th>
-            <th>Surname</th>
-            <th>Firstname</th>
-            <th>Nationality</th>
-            <th>Fee Status</th>
-            <th>Remarks</th>
-            <th>Surname</th>
-            <th>Firstname</th>
-            <th>Nationality</th>
-            <th>Fee Status</th>
-            <th>Remarks</th>
+            <th>Supervisor I</th>
+            <th>Supervisor II</th>
+            <th>Offer start date</th>
+            <th>First deferral</th>
+            <th>Second deferral</th>
+            <th>Revoked</th>
         </tr>
     </thead>
     <tbody>
