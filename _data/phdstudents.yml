@@ -18,7 +18,7 @@
   key: SJ19
   Sheet: Current Applicants
   
- - surname:  Smith7 
+- surname:  Smith7 
   firstname: John7
   nationality: SA
   fee_status: Overseas
@@ -77,7 +77,6 @@
   revoked: NA
   key: SJ192
   Sheet: Live Applicants
-
 
 - surname:  Smith3 
   firstname: John3
