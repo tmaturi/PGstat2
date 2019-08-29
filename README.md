@@ -7,17 +7,17 @@
 <table class="grid" style="width: 100%">
     <caption>{{include.caption}}</caption>
     <colgroup>
-        <col width="10%" />
-        <col width="10%" />
-      <col width="5%" />
         <col width="5%" />
-         <col width="5%" />
         <col width="5%" />
       <col width="5%" />
         <col width="5%" />
          <col width="5%" />
         <col width="5%" />
-      <col width="10%" />
+      <col width="5%" />
+        <col width="5%" />
+         <col width="5%" />
+        <col width="5%" />
+      <col width="20%" />
         <col width="5%" />
          <col width="5%" />
         <col width="5%" />
@@ -78,17 +78,17 @@
 <table class="grid" style="width: 100%">
     <caption>{{include.caption}}</caption>
     <colgroup>
-        <col width="10%" />
-        <col width="10%" />
-      <col width="5%" />
         <col width="5%" />
-         <col width="5%" />
         <col width="5%" />
       <col width="5%" />
         <col width="5%" />
          <col width="5%" />
         <col width="5%" />
-      <col width="10%" />
+      <col width="5%" />
+        <col width="5%" />
+         <col width="5%" />
+        <col width="5%" />
+      <col width="20%" />
         <col width="5%" />
          <col width="5%" />
         <col width="5%" />
@@ -150,17 +150,17 @@
 <table class="grid" style="width: 100%">
     <caption>{{include.caption}}</caption>
     <colgroup>
-        <col width="10%" />
-        <col width="10%" />
-      <col width="5%" />
         <col width="5%" />
-         <col width="5%" />
         <col width="5%" />
       <col width="5%" />
         <col width="5%" />
          <col width="5%" />
         <col width="5%" />
-      <col width="10%" />
+      <col width="5%" />
+        <col width="5%" />
+         <col width="5%" />
+        <col width="5%" />
+      <col width="20%" />
         <col width="5%" />
          <col width="5%" />
         <col width="5%" />
