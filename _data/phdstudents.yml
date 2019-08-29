@@ -2,7 +2,7 @@
   firstname: John
   nationality: SA
   fee_status: Overseas
-  data_applied: 26/04/18
+  date_applied: 26/04/18
   degree: PhD
   subgroup: Statistics
   status: Accepted
@@ -23,7 +23,7 @@
   firstname: John2
   nationality: SA
   fee_status: Overseas
-  data_applied: 26/04/18
+  date_applied: 26/04/18
   degree: PhD
   subgroup: Statistics
   status: Accepted
@@ -44,7 +44,7 @@
   firstname: John3
   nationality: SA
   fee_status: Overseas
-  data_applied: 26/04/18
+  date_applied: 26/04/18
   degree: PhD
   subgroup: Statistics
   status: Accepted
@@ -64,7 +64,7 @@
   firstname: John4
   nationality: SA
   fee_status: Overseas
-  data_applied: 26/04/18
+  date_applied: 26/04/18
   degree: PhD
   subgroup: Statistics
   status: Accepted
