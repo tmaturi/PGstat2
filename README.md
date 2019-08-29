@@ -4,6 +4,25 @@ You can use the [editor on GitHub](https://github.com/tmaturi/PGstat2/edit/maste
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
+
+### Current 
+<table style="width:100%">
+  <tr>
+    <th> Surname2 </th>
+    <th> Firstname </th> 
+    <th> Nationality</th>
+     <th> Remarks  </th>
+  </tr>
+  {% for student in site.data.phdstudents %}
+  <tr>
+    <th>{{ student.surname }}</th>
+    <th>{{ student.firstname }}</th> 
+    <th>{{ student.nationality }}</th>
+     <th>{{ student.remarks }} </th>
+  </tr>
+  {% endfor %}
+  </table>
+  
 ### Markdown
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
