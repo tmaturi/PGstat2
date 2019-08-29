@@ -96,7 +96,7 @@
           <td>{{ student.nationality }}</td>
            <td>{{ student.remarks }}</td>
         </tr>
-         {% endfor %}
+         {% endif %}
     {% endfor %}
     </tbody>
 </table>
