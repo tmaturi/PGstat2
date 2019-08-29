@@ -6,13 +6,9 @@ Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://j
 
 
 ### Current 
-| Surname3 | Firstname | Nationality |  Remarks  |
-|---|---|---|---|
-  
+
   {% for student in site.data.phdstudents %}
-
  |{{ student.surname }}|{{ student.firstname }}|{{ student.nationality }}|{{ student.remarks }} |
-
   {% endfor %}
 
   
