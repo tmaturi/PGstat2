@@ -3,14 +3,27 @@
 
 
 
-### Sheet 1: Current Applicants00
+### Sheet 1: Current Applicants
 <table class="grid" style="width: 100%">
     <caption>{{include.caption}}</caption>
     <colgroup>
-        <col width="25%" />
-        <col width="25%" />
-      <col width="25%" />
-        <col width="25%" />
+        <col width="5%" />
+        <col width="5%" />
+      <col width="5%" />
+        <col width="5%" />
+         <col width="5%" />
+        <col width="5%" />
+      <col width="5%" />
+        <col width="5%" />
+         <col width="5%" />
+        <col width="5%" />
+      <col width="5%" />
+        <col width="5%" />
+         <col width="5%" />
+        <col width="5%" />
+      <col width="5%" />
+        <col width="5%" />
+        <col width="5%" />
     </colgroup>
     <thead>
         <tr class="header">
