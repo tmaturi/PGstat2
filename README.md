@@ -22,7 +22,7 @@
         </tr>
     </thead>
     <tbody>
-     {% for student in site.data.phdstudents %}
+     {% for student in site.data.phdstudents  | group_by:"Sheet" %}
         <tr>
           <td>{{ student.surname }}</td>
           <td>{{ student.firstname }}</td>
