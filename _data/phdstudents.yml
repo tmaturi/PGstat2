@@ -58,9 +58,10 @@
   second_deferral: 01/10/19
   revoked: NA
   key: SJ192
-  Sheet: 
-- surname:  Smith2 
-  firstname: John2
+  Sheet: Current Students
+  
+- surname:  Smith4 
+  firstname: John4
   nationality: SA
   fee_status: Overseas
   data_applied: 26/04/18
