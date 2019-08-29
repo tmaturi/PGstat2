@@ -3,7 +3,7 @@
 
 
 
-### Sheet 1: Current Applicants9
+### Sheet 1: Current Applicants
 <table class="grid" style="width: 100%">
     <caption>{{include.caption}}</caption>
     <colgroup>
