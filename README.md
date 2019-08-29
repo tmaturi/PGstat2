@@ -6,10 +6,35 @@ Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://j
 
 
 ### Current 
+<table class="grid" style="width: 100%">
+    <caption>{{include.caption}}</caption>
+    <colgroup>
+        <col width="25%" />
+        <col width="25%" />
+      <col width="25%" />
+        <col width="25%" />
+    </colgroup>
+    <thead>
+        <tr class="header">
+            <th>Surname</th>
+            <th>Firstname</th>
+            <th>Nationality</th>
+            <th>Remarks</th>
+        </tr>
+    </thead>
+    <tbody>
+     {% for student in site.data.phdstudents %}
+        <tr>
+          <td>{{ student.surname }}</td>
+          <td>{{ student.firstname }}</td>
+          <td>{{ student.nationality }}</td>
+           <td>{{ student.remarks }}</td>
+        </tr>
+    {% endfor %}
+    </tbody>
+</table>
 
-  {% for student in site.data.phdstudents %}
- |{{ student.surname }}|{{ student.firstname }}|{{ student.nationality }}|{{ student.remarks }} |
-  {% endfor %}
+ 
 
   
 ### Markdown
