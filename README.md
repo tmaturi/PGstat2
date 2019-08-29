@@ -1,8 +1,6 @@
 ## Welcome to GitHub Pages
 
-You can use the [editor on GitHub](https://github.com/tmaturi/PGstat2/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
 
 ### Sheet 1: Current Applicants
@@ -19,6 +17,7 @@ Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://j
             <th>Surname</th>
             <th>Firstname</th>
             <th>Nationality</th>
+            <th>Fee_status</th>
             <th>Remarks</th>
         </tr>
     </thead>
@@ -28,6 +27,7 @@ Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://j
           <td>{{ student.surname }}</td>
           <td>{{ student.firstname }}</td>
           <td>{{ student.nationality }}</td>
+           <td>{{  student.fee_status }} </td>
            <td>{{ student.remarks }}</td>
         </tr>
     {% endfor %}
