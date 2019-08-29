@@ -24,6 +24,7 @@
     <tbody>
      {% for student in site.data.phdstudents  | group_by:"Sheet" %}
         <tr>
+             <td>{{ student.Sheet }}</td>
           <td>{{ student.surname }}</td>
           <td>{{ student.firstname }}</td>
           <td>{{ student.nationality }}</td>
