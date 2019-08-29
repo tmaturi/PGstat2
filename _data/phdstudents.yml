@@ -1,0 +1,18 @@
+- surname:  Smith 
+  firstname: John
+  nationality: SA
+  fee_status: Overseas
+  data_applied: 26/04/18
+  degree: PhD
+  subgroup: Statistics
+  status: Accepted
+  PT_FT: FT
+  funding: Self
+  remarks: language condition now filfille
+  supervisor_I: TM
+  supervisor_II: JM
+  offer_start_date: 01/10/19
+  first_deferral: 01/10/19
+  second_deferral: 01/10/19
+  revoked: NA
+  key: SJ19
