@@ -3,7 +3,7 @@
 
 
 
-### Sheet 1: Current Applicants000
+### Sheet 1: Current Applicants
 <table class="grid" style="width: 100%">
     <caption>{{include.caption}}</caption>
     <colgroup>
@@ -56,12 +56,14 @@
     </thead>
     <tbody>
      {% for student in site.data.phdstudents %}
+        {% if student.Sheet  == "Live Applicants" %}
         <tr>
           <td>{{ student.surname }}</td>
           <td>{{ student.firstname }}</td>
           <td>{{ student.nationality }}</td>
            <td>{{ student.remarks }}</td>
         </tr>
+        {% endif %} 
     {% endfor %}
     </tbody>
 </table>
@@ -87,12 +89,14 @@
     </thead>
     <tbody>
      {% for student in site.data.phdstudents %}
+        {% if student.Sheet  == "Current Students" %}
         <tr>
           <td>{{ student.surname }}</td>
           <td>{{ student.firstname }}</td>
           <td>{{ student.nationality }}</td>
            <td>{{ student.remarks }}</td>
         </tr>
+         {% endfor %}
     {% endfor %}
     </tbody>
 </table>
